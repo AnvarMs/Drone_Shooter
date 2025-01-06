@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|c:\\users\\anvar ms\\unity_worck\\drone_simulator\\assets\\scripts\\missile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\missile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\assets\\scripts\\shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\assets\\scripts\\photonetest\\roommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\photonetest\\roommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|c:\\users\\anvar ms\\unity_worck\\drone_simulator\\assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B3FC84-E201-3D26-4F81-C1D2EA07D152}|PhotonUnityNetworking.csproj|C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\assets\\photon\\photonunitynetworking\\code\\photonnetworkpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B3FC84-E201-3D26-4F81-C1D2EA07D152}|PhotonUnityNetworking.csproj|solutionrelative:assets\\photon\\photonunitynetworking\\code\\photonnetworkpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\assets\\scripts\\photonetest\\helth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\photonetest\\helth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\assets\\scripts\\dronecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86B49019-8D4D-2DAF-C55D-0805D8688060}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dronecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\Timer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Timer.cs",
+              "ToolTip": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\Timer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Timer.cs",
+              "ViewState": "AgIAAAcAAAAAwGVmZmbGvyQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:11:54.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhotonNetworkPart.cs",
+              "DocumentMoniker": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
+              "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
+              "ToolTip": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
+              "RelativeToolTip": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
+              "ViewState": "AgIAAOEBAAAAAAAAAAAjwNsBAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:29:22.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Helth.cs",
+              "DocumentMoniker": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\PhotoneTest\\Helth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PhotoneTest\\Helth.cs",
+              "ToolTip": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\PhotoneTest\\Helth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PhotoneTest\\Helth.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:18:23.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DroneController.cs",
+              "DocumentMoniker": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\DroneController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DroneController.cs",
+              "ToolTip": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\DroneController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DroneController.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAwwL8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:25:05.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomManager.cs",
+              "DocumentMoniker": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\PhotoneTest\\RoomManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PhotoneTest\\RoomManager.cs",
+              "ToolTip": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\PhotoneTest\\RoomManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PhotoneTest\\RoomManager.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwIEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:10:18.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Missile.cs",
+              "DocumentMoniker": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\Missile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Missile.cs",
+              "ToolTip": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\Missile.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\Missile.cs*",
+              "ViewState": "AgIAADIAAAAAAAAAAAA9wGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:34:49.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shoot.cs",
+              "DocumentMoniker": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\Shoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Shoot.cs",
+              "ToolTip": "C:\\Users\\Anvar MS\\Unity_Worck\\Drone_Simulator\\Assets\\Scripts\\Shoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Shoot.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAmwMkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:32:16.296Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
