@@ -1,10 +1,6 @@
 
-using System.Collections;
-using Cinemachine;
 using Photon.Pun;
-using Photon.Pun.UtilityScripts;
-using TMPro;
-using Unity.VisualScripting;
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class DroneController : MonoBehaviourPun
@@ -53,7 +49,7 @@ public class DroneController : MonoBehaviourPun
             _camera = GetComponentInChildren<Camera>();
 
             // Optionally enable Cinemachine or any other camera-related component
-            CinemachineVirtualCamera vCam = GetComponentInChildren<CinemachineVirtualCamera>();
+            CinemachineCamera vCam = GetComponentInChildren<CinemachineCamera>();
             if (vCam != null)
             {
                 vCam.enabled = true; // Enable only for local player
@@ -71,7 +67,7 @@ public class DroneController : MonoBehaviourPun
             }
 
             // Optionally disable Cinemachine for remote players
-            CinemachineVirtualCamera vCam = GetComponentInChildren<CinemachineVirtualCamera>();
+            CinemachineCamera vCam = GetComponentInChildren<CinemachineCamera>();
             if (vCam != null)
             {
                 vCam.enabled = false;
@@ -149,10 +145,10 @@ public class DroneController : MonoBehaviourPun
 
 
 
-        if (rb.velocity.magnitude > maxSpeed)
+        if (rb.linearVelocity.magnitude > maxSpeed)
         {
             // Limit the velocity to the max speed by normalizing and scaling
-            rb.velocity = rb.velocity.normalized * maxSpeed;
+            rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
         }
         // Check if Space (keyboard) or Joystick B button is pressed
         if (Input.GetButtonDown("Space"))
@@ -165,7 +161,7 @@ public class DroneController : MonoBehaviourPun
         }
 
         rb.MoveRotation(Quaternion.Euler(yMove, xRotation, xMove));
-        animator.speed = Mathf.Clamp(rb.velocity.magnitude, 4, 10);
+        animator.speed = Mathf.Clamp(rb.linearVelocity.magnitude, 4, 10);
 
 
     }

@@ -27,7 +27,7 @@ public class Missile : MonoBehaviourPun
     // Update is called once per frame
     void FixedUpdate()
     {
-        _rb.velocity = transform.forward * _speed;
+        _rb.linearVelocity = transform.forward * _speed;
        
         if (_divatePrediction != null)
         {
