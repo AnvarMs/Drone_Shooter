@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.61f1 (74a0adb02c31) revision 7643309'; Using compiler version '193933523'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Anvar MS" at "2026-02-08T10:35:55.3777547Z"
 OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 12168 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-02-08T09:30:25Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-v82bNTkKfWykEShVvoXni" at "2026-02-08T09:30:25.8932481Z"
+Date: 2026-02-08T10:35:55Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.61f1\Editor\Unity.exe
@@ -17,9 +17,9 @@ D:/Unity_Worcks/Drone Shooter
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49876
+49815
 -licensingIpc
-LicenseClient-v82bNTkKfWykEShVvoXni
+LicenseClient-Anvar MS
 -job-worker-count
 3
 -background-job-worker-count
@@ -65,27 +65,27 @@ D:/Unity_Worcks/Drone Shooter
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6404]  Target information:
+Player connection [1492]  Target information:
 
-Player connection [6404]  * "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 1800791228 [EditorId] 1800791228 [Version] 1048832 [Id] WindowsEditor(7,CHARLysPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [1492]  * "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 456222805 [EditorId] 456222805 [Version] 1048832 [Id] WindowsEditor(7,CHARLysPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6404] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [6404] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1492] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1492] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3872, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 11140, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              2a8ce12ecbb24622b3430f6659844b4d
-  Correlation Id:          c5faaeda226de4cee9fc3d3a04695df3
-  External correlation Id: 4020797781677719129
+  Session Id:              ec349558cbb144f89e1f73514c7b9a53
+  Correlation Id:          73b414316bec253ff36d7b64632766eb
+  External correlation Id: 8221415104904497894
   Machine Id:              QyRlmUD+m81ptwmCI1yqWrK71KY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-v82bNTkKfWykEShVvoXni" (connect: 0.00s, validation: 0.01s, handshake: 0.20s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-v82bNTkKfWykEShVvoXni-notifications" at "2026-02-08T09:30:26.1060957Z"
-[Licensing::Module] Licensing Background thread has ended after 0.22s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Anvar MS" (connect: 0.00s, validation: 0.00s, handshake: 0.21s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Anvar MS-notifications" at "2026-02-08T10:35:55.5863272Z"
+[Licensing::Module] Licensing Background thread has ended after 0.21s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -93,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.61f1 (74a0adb02c31)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.61f1/Editor/Data/Resources/UnitySubsystems
@@ -110,7 +110,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.61f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.61f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.61f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -121,41 +121,41 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.61f1/
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.61f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.012182 seconds.
-- Loaded All Assemblies, in  2.393 seconds
+Registered in 0.011670 seconds.
+- Loaded All Assemblies, in  3.379 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1203 ms
+Android Extension - Scanning For ADB Devices 3119 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.743 seconds
-Domain Reload Profiling: 5132ms
-	BeginReloadAssembly (1058ms)
+- Finished resetting the current domain, in  6.639 seconds
+Domain Reload Profiling: 9970ms
+	BeginReloadAssembly (1468ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (121ms)
-	LoadAllAssembliesAndSetupDomain (1119ms)
-		LoadAssemblies (1054ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (627ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (473ms)
+	LoadAllAssembliesAndSetupDomain (727ms)
+		LoadAssemblies (1482ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1113ms)
-			TypeCache.Refresh (1110ms)
-				TypeCache.ScanAssembly (1070ms)
+		AnalyzeDomain (670ms)
+			TypeCache.Refresh (668ms)
+				TypeCache.ScanAssembly (617ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (2743ms)
+	FinalizeReload (6639ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2631ms)
+		SetupLoadedEditorAssemblies (6552ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1368ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (1007ms)
-			ProcessInitializeOnLoadMethodAttributes (112ms)
+			InitializePlatformSupportModulesInManaged (3273ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (506ms)
+			ProcessInitializeOnLoadAttributes (1780ms)
+			ProcessInitializeOnLoadMethodAttributes (984ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -168,11 +168,11 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  2.897 seconds
+- Loaded All Assemblies, in  3.861 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.78 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -201,58 +201,58 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Drone_Simulator
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.338 seconds
-Domain Reload Profiling: 6238ms
-	BeginReloadAssembly (878ms)
+- Finished resetting the current domain, in  6.030 seconds
+Domain Reload Profiling: 9887ms
+	BeginReloadAssembly (1157ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (365ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (1572ms)
-		LoadAssemblies (1820ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (2537ms)
+		LoadAssemblies (2264ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (451ms)
-			TypeCache.Refresh (327ms)
-				TypeCache.ScanAssembly (257ms)
-			BuildScriptInfoCaches (92ms)
+		AnalyzeDomain (1302ms)
+			TypeCache.Refresh (788ms)
+				TypeCache.ScanAssembly (602ms)
+			BuildScriptInfoCaches (481ms)
 			ResolveRequiredComponents (27ms)
-	FinalizeReload (3345ms)
+	FinalizeReload (6030ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2766ms)
+		SetupLoadedEditorAssemblies (5032ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (1098ms)
-			ProcessInitializeOnLoadAttributes (1425ms)
-			ProcessInitializeOnLoadMethodAttributes (142ms)
-			AfterProcessingInitializeOnLoad (74ms)
-			EditorAssembliesLoaded (3ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (1216ms)
+			ProcessInitializeOnLoadAttributes (3006ms)
+			ProcessInitializeOnLoadMethodAttributes (758ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (84ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 6.67 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6694 unused Assets / (5.1 MB). Loaded Objects now: 7398.
-Memory consumption went from 133.5 MB to 128.4 MB.
-Total: 86.979500 ms (FindLiveObjects: 8.444300 ms CreateObjectMapping: 6.057000 ms MarkObjects: 52.252500 ms  DeleteObjects: 20.217900 ms)
+Unloading 6694 unused Assets / (4.9 MB). Loaded Objects now: 7399.
+Memory consumption went from 133.5 MB to 128.5 MB.
+Total: 20.451900 ms (FindLiveObjects: 1.487000 ms CreateObjectMapping: 2.132700 ms MarkObjects: 11.616400 ms  DeleteObjects: 5.214400 ms)
 
 ========================================================================
 Received Prepare
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.886 seconds
+- Loaded All Assemblies, in  1.960 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -279,45 +279,45 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.878 seconds
-Domain Reload Profiling: 5723ms
-	BeginReloadAssembly (287ms)
+- Finished resetting the current domain, in  3.004 seconds
+Domain Reload Profiling: 4965ms
+	BeginReloadAssembly (340ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (47ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (49ms)
 	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (104ms)
-	LoadAllAssembliesAndSetupDomain (1389ms)
-		LoadAssemblies (1252ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1499ms)
+		LoadAssemblies (1364ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (267ms)
+		AnalyzeDomain (288ms)
 			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (231ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (3879ms)
+			BuildScriptInfoCaches (249ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (3005ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3619ms)
+		SetupLoadedEditorAssemblies (2758ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (1692ms)
-			ProcessInitializeOnLoadAttributes (1726ms)
-			ProcessInitializeOnLoadMethodAttributes (167ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (1140ms)
+			ProcessInitializeOnLoadAttributes (1454ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6692 unused Assets / (5.2 MB). Loaded Objects now: 7413.
-Memory consumption went from 144.6 MB to 139.4 MB.
-Total: 20.264800 ms (FindLiveObjects: 1.280800 ms CreateObjectMapping: 2.573700 ms MarkObjects: 9.400600 ms  DeleteObjects: 7.007600 ms)
+Unloading 6692 unused Assets / (4.8 MB). Loaded Objects now: 7414.
+Memory consumption went from 144.5 MB to 139.7 MB.
+Total: 10.177400 ms (FindLiveObjects: 0.858000 ms CreateObjectMapping: 1.207700 ms MarkObjects: 5.264900 ms  DeleteObjects: 2.845800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
