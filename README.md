@@ -47,7 +47,7 @@ The project showcases robust network optimization, a custom lobby/matchmaking sy
 ## ✨ Current Features
 
 - 🎮 **Real‑time Multiplayer** – Supports 8+ concurrent players with <150ms latency via Photon PUN2
-- 🕹️ **Tilt‑Based Controls** – Intuitive tilt steering (mobile/desktop) for precise drone maneuvering
+- 🕹️ **Tilt‑Based Controls** – Intuitive tilt steering for desktop, precise drone maneuvering
 - 🏟️ **Lobby & Matchmaking** – Custom system for creating/joining rooms and starting matches
 - 💥 **Combat System** – Shoot, dodge, and outplay opponents in 3D arenas
 - 📊 **Live HUD** – Health (100/100), match timer, and scoreboard
