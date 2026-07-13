@@ -9,9 +9,9 @@
 
 <br/><br/>
 
-[![GitHub](https://img.shields.io/badge/🐙_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/DroneShooter)
-[![YouTube](https://img.shields.io/badge/📺_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@CHARLydp)
-[![Stars](https://img.shields.io/github/stars/yourusername/DroneShooter?style=for-the-badge&color=yellow)](https://github.com/yourusername/DroneShooter/stargazers)
+
+[![YouTube](https://img.shields.io/badge/📺_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/hJ_Mwhk2BNg?si=ws7uLmtk8AsN29hk)
+[![Stars](https://img.shields.io/github/stars/AnvarMS/Drone_Shooter?style=for-the-badge&color=yellow)](https://github.com/AnvarMs/Drone_Shooter/stargazers)
 
 </div>
 
@@ -32,7 +32,8 @@ The project showcases robust network optimization, a custom lobby/matchmaking sy
 
 <br/><i>Development build – main menu and lobby</i>
 <br/><br/>
-<img width="1920" height="902" alt="Screenshot 2026-07-13 200803" src="https://github.com/user-attachments/assets/aa85b827-688f-4db1-aa0a-ddb5d5cf45b6" />
+<img width="1914" height="889" alt="Screenshot 2026-07-13 205755" src="https://github.com/user-attachments/assets/882d7150-33c1-481c-87b3-27ae4695dc18" />
+
 
 <br/><i>Players joining the match – ready to start</i>
 <br/><br/>
